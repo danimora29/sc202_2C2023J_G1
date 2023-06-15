@@ -11,8 +11,9 @@ package com.mycompany.proyectofinal;
 public class ProyectoFinal {
 
     public static void main(String[] args) {
-        System.out.println("Hola Mundo 3!");
-        System.out.println("Esto es una prueba");
-         System.out.println("Buscando la solución");
+        System.out.println("Hello World 34 !");
+         System.out.println("Hello World 35 !");
+          System.out.println("Hello World 36 !");
+           System.out.println("Hello World 38!");
     }
 }
