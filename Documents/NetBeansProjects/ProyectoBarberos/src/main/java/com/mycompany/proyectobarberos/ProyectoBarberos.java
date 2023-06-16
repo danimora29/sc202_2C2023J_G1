@@ -16,6 +16,7 @@ public class ProyectoBarberos {
             System.out.println("Hola Mundo 3");
               System.out.println("Hola Mundo 4");
               System.out.println("Hola Mundo 5");
+              System.out.println("Hola Mundo 6");
               
     }
 }
