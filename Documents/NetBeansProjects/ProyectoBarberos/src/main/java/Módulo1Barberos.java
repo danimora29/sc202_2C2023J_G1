@@ -8,5 +8,8 @@
  * @author Usuario
  */
 public class Módulo1Barberos {
-    
+     public static void main(String[] args) {
+        System.out.println("Esto es una prueba proyecto Barberos");
+         System.out.println("Barbero 1 Juan");
+ }
 }
