@@ -1,17 +1,32 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.mycompany.sc202_2c2023j_g1;
 
-/**
- *
- * @author Usuario
- */
+
 public class Barbero {
-    public String Nombre;
-    public int TiempoAlmuerzo;
-    public int Ganancias;
+    private String nombre;
+    private int horaAlmuerzo;
+
+    public Barbero(String nombre, int horaAlmuerzo) {
+        this.nombre = nombre;
+        this.horaAlmuerzo = horaAlmuerzo;
+    }
+    
+    public String getnombre(){
+        return nombre;
+    }
+    
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
+    
+    public int getHoraAlmuerzo(){
+        return horaAlmuerzo;
+    }
+    
+    public void setHoraAlmuerzo(int horaAlmuerzo){
+        this.horaAlmuerzo = horaAlmuerzo;
+    }
+ 
 
     
 }
