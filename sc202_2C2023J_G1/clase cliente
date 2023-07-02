@@ -46,3 +46,20 @@ public class Cliente {
         this.barbero= barbero;
     }
 }
+
+public void setBarbero(String barbero) {
+    this.barbero=barbero;
+}
+
+public static void main (String [] args) {
+    Cliente cliente1= new Cliente ("Juan", 123454566, "2023-07-01", "Barbero1");
+    System.out.println("Nombre de cliente: " + cliente1.getNombre());
+    System.out.println("Teléfono del cliente: " +cliente1.getTelefono());
+    System.out.println("Cita del cliente: " +cliente1.getCita());
+    System.out.println("Barbero del cliente: " + cliente1.getBarbero());
+
+//Para modficar el barbero
+    cliente1.setBarbero("Barbero2");
+    System.out.println("Nuevo barbero :" + cliente1.getBarbero());
+}
+
