@@ -46,7 +46,7 @@ public class Cliente {
         this.barbero= barbero;
     }
 }
-
+//PARA AGREGARLO A MAIN
 public void setBarbero(String barbero) {
     this.barbero=barbero;
 }
