@@ -11,8 +11,8 @@ package com.mycompany.sc202_2c2023j_g1;
 public class Sc202_2C2023J_G1 {
 
     public static void main(String[] args) {
-        Barbero barbero1 = new Barbero("Juan", 1);
-        Barbero barbero2 = new Barbero("Pablo",2);
+        Barbero barbero1 = new Barbero("Mario", 1);
+        Barbero barbero2 = new Barbero("Luis",2);
         
         System.out.println("Barbero1: " + barbero1.getnombre() +" Hora de Almuerzo: " + barbero1.getHoraAlmuerzo());
         System.out.println("Barbero1: " + barbero2.getnombre() +" Hora de Almuerzo: " + barbero2.getHoraAlmuerzo());
