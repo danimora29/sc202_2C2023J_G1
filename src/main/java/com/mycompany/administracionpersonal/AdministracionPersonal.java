@@ -9,10 +9,12 @@ public class AdministracionPersonal {
 
     public static void main(String[] args){
         
-        String nombreBarbero = JOptionPane.showInputDialog("Ingrese el nombre del barbero:");
-        String horaAlmuerzo = JOptionPane.showInputDialog("Ingrese la hora de almuerzo del barbero:");
-
-        JOptionPane.showMessageDialog(null, "El barbero " + nombreBarbero + " tiene su hora de almuerzo a las " + horaAlmuerzo);
+        Barbero barbero = new Barbero("Juan");
+         String horaAlmuerzo = JOptionPane.showInputDialog("Ingrese la hora de almuerzo del barbero " + barbero.getNombre() + ":");
+        barbero.setHoraAlmuerzo(horaAlmuerzo);
+         JOptionPane.showMessageDialog(null, "Hora de almuerzo registrada correctamente:\n" +
+                "Barbero: " + barbero.getNombre() + "\n" +
+                "Hora de almuerzo: " + barbero.getHoraAlmuerzo());
     }
 }
 
